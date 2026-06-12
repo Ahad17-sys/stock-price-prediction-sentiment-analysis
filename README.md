@@ -53,12 +53,12 @@ This project presents a hybrid machine learning framework for stock market trend
 
 - Mohammad Abdul Ahad
 
+![test](images/workflow.png)
+
 ## Proposed Framework
 
-<h2>Proposed Framework</h2>
-
 <p align="center">
-  <img src="images/workflow.png" width="500">
+  <img src="./images/workflow.png" width="500">
 </p>
 
 <p align="center">
