@@ -1,45 +1,56 @@
-# 📈 Market Trend Forecasting Through Sentiment Analysis of Financial Tweets
-
-Developed an intelligent stock market forecasting system that integrates transformer-based sentiment analysis of financial social media data with historical market indicators. Leveraging RoBERTa and machine learning techniques, the solution enhances trend prediction accuracy and supports data-driven investment insights.
+# Market Trend Forecasting Through Sentiment Analysis of Financial Tweets
 
 ## Overview
+This project presents a hybrid machine learning framework for stock market trend prediction using financial tweet sentiment and historical stock market data. The system combines RoBERTa-based sentiment analysis with Random Forest classification to forecast market trends and support data-driven investment decisions.
 
-This project combines financial tweet sentiment analysis with historical stock market data to predict stock market trends. A fine-tuned RoBERTa model extracts contextual sentiment features from financial tweets, which are integrated with financial indicators and processed using a Random Forest classifier for accurate trend forecasting.
+## Dataset
+- Financial Tweets Dataset
+- Historical Stock Market Dataset
 
-## Key Features
+### Features
+- Financial Tweets
+- Open Price
+- Close Price
+- High Price
+- Low Price
+- Trading Volume
+- Sentiment Scores
 
-- Financial tweet preprocessing and cleaning
-- Sentiment analysis using RoBERTa
-- Contextual embedding extraction
-- Feature fusion of sentiment and financial indicators
-- Random Forest-based stock trend prediction
-- Performance evaluation and visualization
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- PyTorch
+- Hugging Face Transformers
+- RoBERTa
+- Matplotlib
+- Seaborn
+- Gradio
 
-## System Architecture
+## Methodology
+1. Financial tweet preprocessing
+2. Tweet cleaning and normalization
+3. Sentiment analysis using RoBERTa
+4. Contextual embedding extraction
+5. Feature fusion with market indicators
+6. Random Forest classification
+7. Stock trend prediction
 
-```text
-Financial Tweets Dataset          Stock Market Dataset
-            │                              │
-            └──────── Data Collection ─────┘
-                           │
-                           ▼
-              Data Preprocessing
-                           │
-                           ▼
-                 Fine-tuned RoBERTa
-                           │
-                           ▼
-            Contextual Embedding Extraction
-                           │
-                           ▼
-                  Feature Fusion
-      (RoBERTa Embeddings + Financial Features)
-                           │
-                           ▼
-               Random Forest Classifier
-                           │
-                           ▼
-                  Model Evaluation
-                           │
-                           ▼
-                 Stock Trend Prediction
+
+
+## Applications
+
+- Stock Market Forecasting
+
+- Financial Sentiment Analysis
+
+- Investment Decision Support
+
+- Market Trend Prediction
+
+## Authors
+
+- Mohammad Abdul Ahad
+
+
