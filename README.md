@@ -53,14 +53,8 @@ This project presents a hybrid machine learning framework for stock market trend
 
 - Mohammad Abdul Ahad
 
-![test](images/workflow.png)
-
 ## Proposed Framework
 
-<p align="center">
-  <img src="./images/workflow.png" width="500">
-</p>
+![Workflow](images/workflow.png)
 
-<p align="center">
-  Workflow of the proposed RoBERTa + Random Forest stock market prediction framework.
-</p>
+*Workflow of the proposed RoBERTa + Random Forest stock market prediction framework.*
